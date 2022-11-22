@@ -1,0 +1,53 @@
+#back{
+    background: #f8f8f8;
+    position: relative;
+    padding: 0 0;
+    border-radius: 60px 60px 0 0;
+    z-index: 1;
+}
+#back::before{
+    content: "";
+    display: block;
+    width: 349px;
+    height: 364px;
+    background: url(https://www.denizmall.az/site/templates/img/left_bottom_star_gray.svg) no-repeat 0 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#back .footer_text{
+    max-width: 750px;
+    padding: 70px 20px 96px;
+    margin: 0 auto;
+    text-align: center;
+}
+#back .footer_text h3{
+    color: #303896;
+    background: url(https://www.denizmall.az/site/templates/img/map_blue_pin.png) no-repeat 50% 0;
+    background-size: 24px;
+    padding: 35px 0 15px;
+    font-size: 30.7px;
+    line-height: 1.35;
+}
+#back .link{
+    display: flex;
+    justify-content: space-evenly;
+} 
+#back .link a{
+    color: #303896;
+    display: inline-block;
+    height: 60px;
+    padding: 0 50px;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+    animation-duration: 0.15s;
+    transition: all 0.15s linear;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+#back .link a:hover{
+    border: 1px solid #303896;
+}
